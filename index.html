@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api</title>
+    <style>
+        body {
+            font: 600 14px/24px "Open Sans", 
+               "HelveticaNeue-Light", 
+               "Helvetica Neue Light", 
+               "Helvetica Neue", 
+               Helvetica, Arial, 
+               "Lucida Grande", 
+               Sans-Serif;
+         }
+         h1 {
+            color: #312f2f;
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            margin-left: 10px;
+         }
+         h2 {
+            color: #312f2f;
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            margin-left: 10px;
+         }
+         h3 {
+            color: #312f2f;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 4px;
+            margin-left: 10px;
+         }
+         .container:before, .container:after {
+            content: "";
+            display: table;
+         }
+         .container:after {
+            clear: both;
+         }
+         .container {
+            background: #eaeaed;
+            margin-bottom: 24px;
+            *zoom: 1;
+         }
+         .container-75 {
+            width: 75%;
+         }
+         .container-50 {
+            margin-bottom: 0;
+            width: 50%;
+         }
+         .container, section, aside {
+            border-radius: 6px;
+         }
+         section, aside {
+            background: #b3cde0;
+            color: #000;
+            margin: 1.858736059%;
+            padding: 10px 10px;
+            text-align: left;
+         }
+         section {
+            float: left;
+            width: 30%;
+         }
+         aside {
+            float: right;
+            width: 29.3680297%;
+            border: 1px solid #cad7e3;
+         }
+        </style>
+        <script src="./script.js"></script>
+</head>
+<body>
+    <h1>Weather Today</h1>
+    <div class="container">
+       <section>
+       <aside>
+        <img src="" id="img"/>
+        <h3 id="condition"></h3>
+         </aside>
+        <!-- Print a single value --> 
+        <h1 id="name"></h1>
+        <h2 id="country"></h2> 
+        <h3 id="temp"></h3>
+        </section>  
+    </div>
+    <script>
+        Func(link);
+    </script>
+</body>
+</html>
